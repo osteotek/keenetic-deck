@@ -1,0 +1,20 @@
+name: platform_capabilities
+description: Platform capability contracts for Keenetic Deck.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^10.0.0
+  router_core:
+    path: ../router_core
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

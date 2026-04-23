@@ -1,0 +1,28 @@
+name: keenetic_manager_app
+description: Cross-platform Keenetic Deck application shell.
+publish_to: none
+version: 0.1.0-dev+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.5
+  router_core:
+    path: ../../packages/router_core
+  router_storage:
+    path: ../../packages/router_storage
+  platform_capabilities:
+    path: ../../packages/platform_capabilities
+  cupertino_native: ^0.1.1
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

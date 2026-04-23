@@ -1,0 +1,8 @@
+{
+  "default": {
+    "description": "Default route"
+  },
+  "work-vpn": {
+    "description": "Work VPN"
+  }
+}

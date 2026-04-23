@@ -1,0 +1,15 @@
+name: router_storage
+description: Storage adapters for Keenetic Deck.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  path: ^1.9.1
+  router_core:
+    path: ../router_core
+
+dev_dependencies:
+  test: ^1.26.3

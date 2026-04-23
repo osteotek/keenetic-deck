@@ -1,0 +1,14 @@
+name: router_core
+description: Shared domain and router service contracts for Keenetic Deck.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  crypto: ^3.0.6
+  http: ^1.5.0
+
+dev_dependencies:
+  test: ^1.26.3

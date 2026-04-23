@@ -1,0 +1,19 @@
+{
+  "Wireguard0": {
+    "peer": {
+      "alice": {
+        "allowed_ips": [
+          "10.10.10.2/32"
+        ],
+        "endpoint": "vpn.example.com:51820",
+        "enabled": true
+      },
+      "bob": {
+        "allowed-ips": [
+          "10.10.10.3/32"
+        ],
+        "enabled": false
+      }
+    }
+  }
+}

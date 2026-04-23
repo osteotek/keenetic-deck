@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Laptop",
+    "ip": "192.168.1.20",
+    "mac": "AA:BB:CC:DD:EE:FF",
+    "link": "up",
+    "ap": "WifiMaster0/AccessPoint0",
+    "rssi": -48,
+    "txrate": 866,
+    "security": "WPA2",
+    "_11": ["n", "ac"],
+    "txss": 2,
+    "ht": 80,
+    "mode": "11ac"
+  },
+  {
+    "name": "Tablet",
+    "ip": "192.168.1.21",
+    "mac": "11:22:33:44:55:66",
+    "speed": 1000,
+    "port": 3,
+    "mws": {
+      "link": "down"
+    }
+  }
+]

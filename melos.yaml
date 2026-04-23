@@ -1,0 +1,6 @@
+name: keenetic_manager_workspace
+
+packages:
+  - apps/**
+  - packages/**
+

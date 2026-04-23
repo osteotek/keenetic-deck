@@ -11,6 +11,8 @@ Keenetic Deck is a Flutter app for:
 
 - `apps/keenetic_manager_app`
   Flutter application shell and platform targets
+- `apps/keenetic_tui`
+  Bubble Tea terminal application with the same router-management feature set
 - `packages/router_core`
   Router API, entities, and shared application logic
 - `packages/router_storage`
@@ -37,6 +39,14 @@ For the shared packages:
 cd packages/router_core && dart test
 cd packages/router_storage && dart test
 cd packages/platform_capabilities && flutter test
+```
+
+For the Bubble Tea TUI:
+
+```bash
+cd apps/keenetic_tui
+go run .
+go test ./...
 ```
 
 ## macOS Build
